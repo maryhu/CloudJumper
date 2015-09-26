@@ -162,7 +162,7 @@ def welcome_screen(high_score):
     screen.blit(background, (0,0))
     
     # Background music
-    pygame.mixer.music.load("./Sounds/intro.mp3")
+    pygame.mixer.music.load("./Sounds/intro.wav")
     pygame.mixer.music.set_volume(0.3)
     pygame.mixer.music.play(-1)
     
@@ -242,7 +242,7 @@ def game():
     screen.blit(background, (0, 0))   
     
     # Background music
-    pygame.mixer.music.load("./Sounds/Rainbow Road.mp3")
+    pygame.mixer.music.load("./Sounds/Rainbow_Road.wav")
     pygame.mixer.music.set_volume(0.4)
     pygame.mixer.music.play(-1)
     
